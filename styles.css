@@ -1,0 +1,74 @@
+.nav{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: red;
+    transform: translate(100px,20px);
+    transform: scale(4);
+    transform: rotate(150deg);
+    animation-name: forward;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-name: skew;
+
+}
+.normal{
+    margin-top: 50px;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    background-color: aqua;
+}
+@keyframes forward {
+    0%{
+        transform: translate(0px,0px);
+
+    }
+    100%{
+        transform: translate(20px,30px)
+
+    }
+    
+}
+/* @keyframes ratation {
+    0%{
+        transform: rotate(0deg);
+    
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+} */
+ /* @keyframes forward {
+    0%{
+        transform: translate(0px,0px);
+
+    }
+    100%{
+        transform: translate(200px);
+}
+} */
+@keyframes skew {
+    0%{
+        transform: skew(0deg);
+    }
+    100%{
+        tranform:skew(-20deg);
+    }
+
+}
+.ssr{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+input{
+    background-color: blue;
+}
+@keyframes 
+    

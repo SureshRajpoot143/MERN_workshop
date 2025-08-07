@@ -1,0 +1,18 @@
+body{
+    background-image:url("images.jpeg");
+    background-size: 100%;
+    background-repeat:no-repeat ;
+}
+h2{
+    color:black;
+    font: size 50px;
+    text-align: center;
+    margin-top: 90px;
+
+
+}
+div{
+    text-align: top;
+    margin-top: 100px;
+    
+}
