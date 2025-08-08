@@ -1,20 +1,18 @@
 //group words
-let onjects=["tea","eat","bat","tab"];
+let object=["tea","eat","bat","tab"];
 let groupWords = (words) => {
-    "aet"=["tea","eat"],
-    "abt"=["bat","tab"]
-    let grouped = {};               
-    for (let word of words) {
-        let sorted = word.split('').sort().join('');
-        if (!grouped[sorted]) {
-            grouped[sorted] = [];
+    let grouped = {};
+    words.forEach(word => {
+        let sortedWord = word.split('').sort().join('');
+        if (!grouped[sortedWord]) {
+            grouped[sortedWord] = [];
         }
-        grouped[sorted].push(word);
-    }
+        grouped[sortedWord].push(word);
+    });
     return Object.values(grouped);
-};
-let groupedWords = groupWords(onjects);
-console.log(groupedWords); // [["tea", "eat"], ["bat", "tab"]
+}       
+let groupedWords = groupWords(object);
+console.log(groupedWords); 
 
 
 
