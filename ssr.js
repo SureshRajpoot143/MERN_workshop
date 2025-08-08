@@ -461,26 +461,28 @@
 //     console.log("Grouped by length and first letter:", groupedByLengthAndFirstLetter);
     
 //check two word are anagrams or not
- let word1 = "listen";
- let word2 = "silent";
- const h=() => {
-     if (word1.length !== word2.length) {
-         return "Not_anagram";
-     }
-    for(let i = 0; i < word1.length; i++) {
-         if (word1[i] !== word2[i]) {
-             return "Not_anagram" ;
-         }
-         for(let i of word) {
-             if (word1[i] !== word2[i]) {
-                 return "Not_anagram";
-             }
-         }
-     }
-     return "anagram";
- };
- console.log(h());
+//  let word1 = "listen";
+//  let word2 = "silent";
+//  const h=() => {
+//      if (word1.length !== word2.length) {
+//          return "Not_anagram";
+//      }
+//     for(let i = 0; i < word1.length; i++) {
+//          if (word1[i] !== word2[i]) {
+//              return "Not_anagram" ;
+//          }
+//          for(let i of word) {
+//              if (word1[i] !== word2[i]) {
+//                  return "Not_anagram";
+//              }
+//          }
+//      }
+//      return "anagram";
+//  };
+//  console.log(h());
                 
+
+
  
 
 
