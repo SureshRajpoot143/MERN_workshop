@@ -480,6 +480,42 @@
 //      return "anagram";
 //  };
 //  console.log(h());
+//print all leaders in an array
+//what is leader in array?
+//in an array, a leader is an element that is greater than all the elements to its right
+// console.log(leadersOptimized([16, 17, 4, 3, 5, 2]));
+//output: [17, 5, 2]
+// let arr = [16, 17, 4, 3, 5, 2];
+// function leadersOptimized(arr) {
+//         let leaders = [];
+//         let maxFromRight = -Infinity;
+//         for (let i = arr.length - 1; i >= 0; i--) {
+//                 if (arr[i] > maxFromRight) {
+//                         leaders.unshift(arr[i]);
+//                         maxFromRight = arr[i];
+//                 }
+//         }
+//         return leaders;
+// }
+// console.log(leadersOptimized(arr));
+
+
+
+  
+
+
+
+
+    
+
+
+        
+        
+
+
+
+
+
                 
 
 
