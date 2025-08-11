@@ -461,6 +461,7 @@
 //     console.log("Grouped by length and first letter:", groupedByLengthAndFirstLetter);
     
 //check two word are anagrams or not
+<<<<<<< HEAD
 //  let word1 = "listen";
 //  let word2 = "silent";
 //  const h=() => {
@@ -523,6 +524,13 @@
 
 
         
+=======
+ let word1 = "listen";
+ let word2 = "silent";
+ if (word1.length !== word2.length) {
+        console.log("Not anagrams");
+    }
+>>>>>>> feature
     
     
  
