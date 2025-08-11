@@ -461,76 +461,11 @@
 //     console.log("Grouped by length and first letter:", groupedByLengthAndFirstLetter);
     
 //check two word are anagrams or not
-<<<<<<< HEAD
-//  let word1 = "listen";
-//  let word2 = "silent";
-//  const h=() => {
-//      if (word1.length !== word2.length) {
-//          return "Not_anagram";
-//      }
-//     for(let i = 0; i < word1.length; i++) {
-//          if (word1[i] !== word2[i]) {
-//              return "Not_anagram" ;
-//          }
-//          for(let i of word) {
-//              if (word1[i] !== word2[i]) {
-//                  return "Not_anagram";
-//              }
-//          }
-//      }
-//      return "anagram";
-//  };
-//  console.log(h());
-//print all leaders in an array
-//what is leader in array?
-//in an array, a leader is an element that is greater than all the elements to its right
-// console.log(leadersOptimized([16, 17, 4, 3, 5, 2]));
-//output: [17, 5, 2]
-// let arr = [16, 17, 4, 3, 5, 2];
-// function leadersOptimized(arr) {
-//         let leaders = [];
-//         let maxFromRight = -Infinity;
-//         for (let i = arr.length - 1; i >= 0; i--) {
-//                 if (arr[i] > maxFromRight) {
-//                         leaders.unshift(arr[i]);
-//                         maxFromRight = arr[i];
-//                 }
-//         }
-//         return leaders;
-// }
-// console.log(leadersOptimized(arr));
-
-
-
-  
-
-
-
-
-    
-
-
-        
-        
-
-
-
-
-
-                
-
-
- 
-
-
-        
-=======
  let word1 = "listen";
  let word2 = "silent";
  if (word1.length !== word2.length) {
         console.log("Not anagrams");
     }
->>>>>>> feature
     
     
  
