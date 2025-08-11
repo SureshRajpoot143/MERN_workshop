@@ -13,6 +13,9 @@ let groupWords = (words) => {
 }       
 let groupedWords = groupWords(object);
 console.log(groupedWords); 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59e88
 
 
