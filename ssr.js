@@ -309,19 +309,180 @@
 // const arr2 = [101,102,103,1,2,3,104,105,5,6,7];
 // console.log(productExceptSelf(arr2));
 
-let n=[101,102,103,1,2,3,4,104,105,5,6,7]
-n.sort((a,b)=>(a-b))
-// console.log(n);   
-let length=1;
-let maxLength=1;  
-for(let i=0;i<n.length;i++){
-    if(n[i]==n[i-1]+1){
-        length++;
-    }
-    else length=1
-    if(length>maxLength){
-        maxLength=length;
+// let n=[101,102,103,1,2,3,4,104,105,5,6,7]
+// n.sort((a,b)=>(a-b))
+// // console.log(n);   
+// let length=1;
+// let maxLength=1;  
+// for(let i=0;i<n.length;i++){
+//     if(n[i]==n[i-1]+1){
+//         length++;
+//     }
+//     else length=1
+//     if(length>maxLength){
+//         maxLength=length;
       
+//     }
+// }
+// console.log(maxLength);
+
+    //object
+// let details={"name":"ssr","age":20,
+//     "college":"rbmi"}
+//     console.log(details["name"])
+//     details["location"]="bareilly"
+// console.log(details);
+// details["location"]="UP"
+// console.log(details);
+
+// delete details["locatin"]
+// console.log(details);
+
+//check data or details are same or not
+
+// let data={
+//     "name":"ssr",
+//     "age":20}
+// console.log(details==data);
+// console.log(details,data);
+
+//check whether the the keyb is present or not
+// let details={"name":"ssr","age":20,
+//     "college":"rbmi"}
+// for(let key in details){
+//     console.log(key);
+//    for(let value in details){ 
+//     console.log("the value =",value);
+// }
+// }
+
+
+//find the non-repeating element
+
+// number=[1,3,4,3,5,1,3,5,2,23,4,1,2]
+// // find frequency of each element from Array
+// let data={};
+// for(let i of number){
+//     data[i]=(data[i]|| 0)+1
+// }
+// console.log(data);
+
+// // // find first non repeating element from array
+// for(let key in data){
+//     if(data[key]==1){
+//         console.log(" non-repeating",key);
+//         break
+//     }
+// }
+
+// //invert the object(reverse key value)
+
+// let reverse={}
+// for(key in data){
+//     reverse[data[key]]=key
+// }
+// console.log( "the reverse are",reverse);
+
+
+// //add two objects with same key
+// let data1={1:5,2:10,3:15}
+// let data2={1:7,4:10,3:10}
+
+// //merge two objects
+
+// let merge={}
+// for(let key in data1){
+//     merge[key]=data1[key]
+// }
+// for(let key in data2){
+//     merge[key]=merge[key]&&merge[key]+data2[key]||data2[key]
+// }
+// console.log("the merged object is",merge);
+
+
+//group words by length
+// let objects = ["apple", "ball", "cat", "dog"];
+// console.log(objects);
+// console.log("the length of object is", objects.length);
+
+// let objects_len = {};
+// for (let word of objects) {
+//     let len = word.length;
+//     if (!objects_len[len]) {
+//         objects_len[len] = [];
+//     }
+//     objects_len[len].push(word);
+// }
+// console.log("Grouped by length:", objects_len);
+
+
+//group words by first letter
+
+// let objects = ["apple", "ball", "cat", "dog"];
+// let groupedByFirstLetter = {};
+// for (let word of objects) {
+//     let firstLetter = word[0].toLowerCase();
+//     if (!groupedByFirstLetter[firstLetter]) {
+//         groupedByFirstLetter[firstLetter] = [];
+//     }
+//     groupedByFirstLetter[firstLetter].push(word);
+// }
+// console.log("Grouped by first letter:", groupedByFirstLetter);
+
+
+   //group words by last letter
+
+//  let objects = ["apple", "ball", "cat", "dog"];
+//  let groupedByLastLetter = {};
+//  for (let word of objects) {
+//      let lastLetter = word[word.length - 1].toLowerCase();
+//      if (!groupedByLastLetter[lastLetter]) {
+//          groupedByLastLetter[lastLetter] = [];   
+//         }           
+//         groupedByLastLetter[lastLetter].push(word);     
+//     }   
+//     console.log("Grouped by last letter:", groupedByLastLetter);
+
+//group words by length and first letter
+// let objects = ["apple", "ball", "cat", "dog"];
+//  let groupedByLengthAndFirstLetter = {};          
+
+//  for (let word of objects) {
+//      let len = word.length;
+//      let firstLetter = word[0].toLowerCase();
+//      if (!groupedByLengthAndFirstLetter[len]) { 
+//             groupedByLengthAndFirstLetter[len] = {};
+//         }       
+//         if (!groupedByLengthAndFirstLetter[len][firstLetter]) {
+//             groupedByLengthAndFirstLetter[len][firstLetter] = [];
+//         }
+//         groupedByLengthAndFirstLetter[len][firstLetter].push(word);
+//     }
+//     console.log("Grouped by length and first letter:", groupedByLengthAndFirstLetter);
+    
+//check two word are anagrams or not
+ let word1 = "listen";
+ let word2 = "silent";
+ if (word1.length !== word2.length) {
+        console.log("Not anagrams");
     }
-}
-console.log(maxLength);
+    
+    
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
