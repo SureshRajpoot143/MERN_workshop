@@ -1,2 +1,2 @@
 let name="ssr"
-console.log(name);
+console.log(name); 
