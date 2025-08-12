@@ -29,14 +29,40 @@
 
 
 
-const fun=({...ages})=> {
-    console.log(ages);
-}
-fun({ages: 25,"age1": 30});
+// const fun=({...ages})=> { ///rest operator
+//     console.log(ages);
+// }
+// fun({ages: 25,"age1": 30});
+
+//spread operator ...
+// const arr1 = [1, 2, 3];
+// const arr2 = [4, 5, 6];     
+// const arr3 = [...arr1, ...arr2];
+// console.log(arr3);
 
 
+// const arr1 = [1, 2, 3];
+// console.log(...arr1);
 
 
+//shallow copy and deep copy
+
+
+// const arr= [1, 2, 3,4]
+
+// // const copy=arr; //shallow copy
+// const copy=[...arr]
+// console.log(copy);
+// copy[0]=9
+// console.log(arr);
+// console.log(copy);
+
+const aar1={1:"r",2:"s",3:{"td":"gt"}};
+const copy1={...aar1};
+console.log(copy1);
+copy1[3]="three";
+console.log(copy1);
+console.log(aar1);
 
 
   
