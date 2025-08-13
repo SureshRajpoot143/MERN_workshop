@@ -1,5 +1,5 @@
 Vighnesh Shukla
 Suresh Rajpoot 
-Ritik Kumar
+eitik Kumar
 Devang Pathak 
 
