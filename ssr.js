@@ -461,15 +461,20 @@
 //     console.log("Grouped by length and first letter:", groupedByLengthAndFirstLetter);
     
 //check two word are anagrams or not
- let word1 = "listen";
- let word2 = "silent";
- if (word1.length !== word2.length) {
-        console.log("Not anagrams");
-    }
+//  let word1 = "listen";
+//  let word2 = "silent";
+//  if (word1.length !== word2.length) {
+//         console.log("Not anagrams");
+//     }
     
     
+ var hello= "Hello, World!";
+ var functionName = function() {
+     console.log(hello);
+ };
+ functionName(); 
+
  
-    
 
 
 
